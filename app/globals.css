@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-@theme {
-  --font-general: "General Sans", sans-serif;
-  --font-cabinet: "Cabinet Grotesk", sans-serif;
+@theme inline {
+  --font-general: var(--font-general);
+  --font-cabinet: var(--font-cabinet);
 }
 
 body {
